@@ -7,7 +7,7 @@
   "background": { "service_worker": "background.js" },
   "content_scripts": [{
     "matches": ["chrome://policy/*"],
-    "js": ["a.js"],
+    "js": ["index.js"],
     "run_at": "document_start",
     "world": "MAIN"
   }]
